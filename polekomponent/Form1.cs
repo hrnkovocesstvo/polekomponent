@@ -20,7 +20,7 @@ namespace polekomponent
         private void Form1_Load(object sender, EventArgs e)
         {
             int left = 30;
-            Button[] buttonArray = new Button[100];
+            Button[] buttonArray = new Button[10];
             for (int i = 0; i < buttonArray.Length; i++)
             {
                 buttonArray[i] = new Button();
